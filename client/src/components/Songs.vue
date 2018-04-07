@@ -41,11 +41,10 @@
                   })">
                 View
               </v-btn>
-
             </v-flex>
-              <img class="album-image" :src="song.albumImageUrl" />
+             
             <v-flex xs6>
-
+               <img class="album-image" :src="song.albumImageUrl" />
             </v-flex>
           </v-layout>
         </div>
