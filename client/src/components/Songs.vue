@@ -42,7 +42,7 @@
                 View
               </v-btn>
             </v-flex>
-             
+
             <v-flex xs6>
                <img class="album-image" :src="song.albumImageUrl" />
             </v-flex>
