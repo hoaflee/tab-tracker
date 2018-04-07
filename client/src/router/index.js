@@ -33,8 +33,8 @@ export default new Router({
       component: Songs
     },
     {
-      path: '/songs/edit',
-      name: 'songs-edit',
+      path: '/songs/create',
+      name: 'songs-create',
       component: CreateSong
     },
     {
