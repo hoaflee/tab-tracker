@@ -25,7 +25,6 @@
   </v-layout>
 </template>
 <script>
-import Panel from '@/components/Panel'
 import AuthenticationService from '@/services/AuthenticationService'
 export default {
   data () {
@@ -48,9 +47,6 @@ export default {
         this.error = err.response.data.error
       }
     }
-  },
-  components: {
-    Panel
   }
 }
 </script>
